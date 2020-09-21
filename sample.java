@@ -19,4 +19,5 @@ public void captureScreen(String fileName) throws Exception {
    BufferedImage image = robot.createScreenCapture(screenRectangle);
    ImageIO.write(image, "png", new File(fileName));
    //erreur !! plus d'erreur
+   System.out.println("coucou");
 }
