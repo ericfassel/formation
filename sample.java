@@ -18,5 +18,5 @@ public void captureScreen(String fileName) throws Exception {
    Robot robot = new Robot();
    BufferedImage image = robot.createScreenCapture(screenRectangle);
    ImageIO.write(image, "png", new File(fileName));
-
+   erreur !!
 }
